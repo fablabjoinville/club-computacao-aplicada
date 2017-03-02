@@ -28,16 +28,16 @@ Em algum diretório de sua escolha na sua máquina faça os seguintes procedimen
 2. [Faça download do arquivo Vagrantfile aqui](Vagrantfile) e salve-o dentro deste diretório com o nome Vagrantfile
 3. Abra um prompt de comando:
     
-    Windows: Aperte Win+R, digite cmd e aperte enter
-    Mac: Command+Espaço, digite terminal e aperte enter
-    Linux: Se está usando linux provavelmente você sabe :)
+    Windows: Aperte Win+R, digite cmd e aperte enter  
+    Mac: Command+Espaço, digite terminal e aperte enter  
+    Linux: Se está usando linux provavelmente você sabe :)  
 
 4. No prompt de comando navegue até a pasta que você criou com o nome clube-computacao como no exemplo abaixo:
     
-    Windows: cd c:\Users\guilherme\clube-computacao
-    Mac: cd /Users/guilherme/clube-computacao
-    Linux: cd ~/clube-computacao
-    
+    Windows: cd c:\Users\guilherme\clube-computacao  
+    Mac: cd /Users/guilherme/clube-computacao  
+    Linux: cd ~/clube-computacao  
+
 5. No diretório onde se encontra o arquivo Vagrantfile digite o comando:
 
     vagrant up
