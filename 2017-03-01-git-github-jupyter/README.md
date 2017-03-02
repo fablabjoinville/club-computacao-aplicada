@@ -1,6 +1,6 @@
 # Introdução ao git, GitHub e Jupyter Notebooks
 
-### git
+## git
 
 O git é uma ferramenta para armazenagem de código com o propósito de facilitar a colaboração e realizar o controle de versão de código.
 
@@ -12,16 +12,18 @@ Aprenda git usando o [try.github.io](http://try.github.io/).
 
 Para entender melhor como funciona, leia a [Documentação do git](https://git-scm.com/book/pt-br/v2).
 
-### GitHub
+### git no Windows
+
+## GitHub
 
 GitHub é um Serviço de Compartilhamento de projetos que usam o controle de versionamento `git`. Para entender como o GitHub funcione leia o [guia do serviço](https://guides.github.com/activities/hello-world/). Procure entender como funcionam os *Pull Requests*, algo que vamos usar muito nos próximos encontros.
 
 Lembre-se de criar uma conta no [GitHub](https://github.com/) e de solicite a adição no grupo Makers do Fab Lab Joinville abrindo uma [*Issue*](https://github.com/fablabjoinville/computacao-aplicada/issues) neste repositrio.
 
-### Jupyter Notebooks
+## Jupyter Notebooks
 
 [TODO]
 
-### Referências
+## Referências
 
 * [Documentação git](https://git-scm.com/book/pt-br/v2)
