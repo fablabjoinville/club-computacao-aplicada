@@ -6,9 +6,9 @@ Este tutorial instala o ambiente de desenvolvimento do clube de computação apl
 
 Instale o VirtualBox para o seu sistema operacional
 
-[Windows] (http://download.virtualbox.org/virtualbox/5.1.14/VirtualBox-5.1.14-112924-Win.exe)
-[Mac] (http://download.virtualbox.org/virtualbox/5.1.14/VirtualBox-5.1.14-112924-OSX.dmg)
-[Linux] (https://www.virtualbox.org/wiki/Linux_Downloads)
+- [Windows] (http://download.virtualbox.org/virtualbox/5.1.14/VirtualBox-5.1.14-112924-Win.exe)
+- [Mac] (http://download.virtualbox.org/virtualbox/5.1.14/VirtualBox-5.1.14-112924-OSX.dmg)
+- [Linux] (https://www.virtualbox.org/wiki/Linux_Downloads)
 
 A instalação é bem simples no modo next, next, finish.
 
@@ -16,25 +16,25 @@ A instalação é bem simples no modo next, next, finish.
 
 Instale o Vagrant para o seu sistema operacional
 
-[Windows](https://releases.hashicorp.com/vagrant/1.9.2/vagrant_1.9.2.msi?_ga=1.247276676.1620532176.1488463812)
-[Mac](https://releases.hashicorp.com/vagrant/1.9.2/vagrant_1.9.2.dmg?_ga=1.247276676.1620532176.1488463812)
-[Linux - Debian 64bits](https://releases.hashicorp.com/vagrant/1.9.2/vagrant_1.9.2_x86_64.deb?_ga=1.247276676.1620532176.1488463812)
+- [Windows](https://releases.hashicorp.com/vagrant/1.9.2/vagrant_1.9.2.msi?_ga=1.247276676.1620532176.1488463812)
+- [Mac](https://releases.hashicorp.com/vagrant/1.9.2/vagrant_1.9.2.dmg?_ga=1.247276676.1620532176.1488463812)
+- [Linux - Debian 64bits](https://releases.hashicorp.com/vagrant/1.9.2/vagrant_1.9.2_x86_64.deb?_ga=1.247276676.1620532176.1488463812)
 
 ## Configuração
 
 Em algum diretório de sua escolha na sua máquina faça os seguintes procedimentos
 
-1) Crie um diretório com o nome clube-computacao
-2) [Faça download do arquivo Vagrantfile aqui](Vagrantfile) e salve-o dentro deste diretório com o nome Vagrantfile
-3) Abra um prompt de comando:
+1. Crie um diretório com o nome clube-computacao
+2. [Faça download do arquivo Vagrantfile aqui](Vagrantfile) e salve-o dentro deste diretório com o nome Vagrantfile
+3. Abra um prompt de comando:
     Windows: Aperte Win+R, digite cmd e aperte enter
     Mac: Command+Espaço, digite terminal e aperte enter
     Linux: Se está usando linux provavelmente você sabe :)
-4) No prompt de comando navegue até a pasta que você criou com o nome clube-computacao como no exemplo abaixo:
+4. No prompt de comando navegue até a pasta que você criou com o nome clube-computacao como no exemplo abaixo:
     Windows: cd c:\Users\guilherme\clube-computacao
     Mac: cd /Users/guilherme/clube-computacao
     Linux: cd ~/clube-computacao
-5) No diretório onde se encontra o arquivo Vagrantfile digite o comando:
+5. No diretório onde se encontra o arquivo Vagrantfile digite o comando:
 
     vagrant up
 
