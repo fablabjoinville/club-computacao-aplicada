@@ -1,0 +1,46 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "bento/ubuntu-16.04"
+  config.vm.network "forwarded_port", guest: 8888, host: 8888
+  config.vm.network "private_network", ip: "192.168.33.10"
+  # config.vm.synced_folder "../data", "/vagrant_data"
+  
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "1024"
+  end
+  
+  $script = <<-SCRIPT
+  apt-get update
+  apt-get install -y build-essential
+  apt-get install -y wget
+  apt-get install -y git
+  wget https://repo.continuum.io/archive/Anaconda3-4.3.0-Linux-x86_64.sh
+  bash /home/vagrant/Anaconda3-4.3.0-Linux-x86_64.sh -b
+  rm -rf /home/vagrant/Anaconda3-4.3.0-Linux-x86_64.sh
+  echo "export PATH=$PATH:/home/vagrant/anaconda3/bin" >> ~/.bashrc
+  export PATH=$PATH:/home/vagrant/anaconda3/bin
+  conda create -n ia -y -f
+  source activate ia
+  conda install -y pip
+  conda install -y numpy
+  conda install -y scikit-learn
+  conda install -y scikit-image
+  conda install -y jupyter
+  pip install tensorflow
+  pip install keras
+  SCRIPT
+
+  config.vm.provision "shell", inline: $script, privileged: false
+
+  $runcmd = <<-SCRIPT
+  cd /vagrant
+  export PATH=$PATH:/home/vagrant/anaconda3/bin
+  source activate ia
+  jupyter notebook --NotebookApp.token= --ip='*'
+  SCRIPT
+
+  config.vm.provision "shell", inline: $runcmd, privileged: false, run: 'always'
+
+end

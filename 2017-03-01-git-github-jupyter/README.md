@@ -1,5 +1,10 @@
 # Introdução ao git, GitHub e Jupyter Notebooks
 
+## Ambiente de desenvolvimento com Vagrant
+
+O Vagrant permite configurar uma máquina virtual com todas as aplicações e bibliotecas que serão utilizadas no clube.
+[Clique aqui para ver o tutorial de instalação no Windows, Mac e Linux](instalacao_vagrant/)
+
 ## git
 
 O git é uma ferramenta para armazenagem de código com o propósito de facilitar a colaboração e realizar o controle de versão de código.
