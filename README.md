@@ -10,6 +10,7 @@ Documentação do Clube de Computação Aplicada.
 * 2017-03-22 Introdução ao Machine Learning com scikit-learn
 * 2017-03-29 Regressor Linear e Regressor Logístico
 
-### Outros
+### Nosso Amigos
 
 * [Meetup Joinville Machine Learning](http://joinville.ml)
+* [Colóquio de Ciência da Computação](https://www.facebook.com/coloquioscomputacao/)
