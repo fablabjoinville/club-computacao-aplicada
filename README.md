@@ -11,9 +11,10 @@ Documentação do Clube de Computação Aplicada.
 
 * [2017-03-01 Instalação do ambiente, Introdução ao git, GitHub e Jupyter Notebooks](/2017-03-01-git-github-jupyter/)
 * [2017-03-08 Introdução ao Python](/2017-03-08-introducao-python/)
-* 2017-03-15 Introdução ao NumPy
-* 2017-03-22 Introdução ao Machine Learning com scikit-learn
-* 2017-03-29 Regressor Linear e Regressor Logístico
+* [2017-03-15 Meetup Joinville Machine Learning](https://www.meetup.com/pt-BR/Joinville-Machine-Learning/events/237742616/)
+* 2017-03-22 Introdução ao NumPy
+* 2017-03-29 Introdução ao Machine Learning com scikit-learn
+* 2017-04-05 Regressor Linear e Regressor Logístico
 
 ### Nosso Amigos
 
